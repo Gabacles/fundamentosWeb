@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <nav>
-        <ul>
+        <ul id="menu">
             <li>
                 <a href="index.html">Home</a>
             </li>
@@ -19,20 +20,39 @@
             </li>
         </ul>
     </nav>
-    <h1>Entre em contato</h1>
+    <h1 class="center">Entre em contato</h1>
+    <div class="container mb-50">
+        <form>
+            <div class="pd-10">
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="" id="nome">
+            </div>
+            <div class="pd-10">
+                <label for="email">E-mail:</label><br>
+                <input type="email" name="" id="email">
+            </div>
+            <div class="pd-10">
+                <label for="assunto">Assunto:</label><br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+            </div>
+            <div class="pd-10">
+                <button>Enviar</button>
+            </div>
+        </form>
+    </div>
 
-    <form>
-        <label for="nome">Nome:</label>
-        <input type="text" name="" id="nome">
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.instagram.com/gahcamera/" target="_blank"><img class="tm-social pd-30" src="assets/img/instagram.png"
+                    alt="link para instagram"></a>
+            <a href="https://www.linkedin.com/in/gabriel-camera-dal-rovere/" target="_blank"><img class="tm-social pd-30"
+                    src="assets/img/linkedin.png" alt="link para linkedin"></a>
+        </div>
 
-        <label for="email">E-mail:</label>
-        <input type="email" name="" id="email">
+        <p class="center size">Todos os direitos reservados para Naughty Dog &copy</p>
+    </footer>
 
-        <label for="assunto">Assunto:</label>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-
-        <button>Enviar</button>
-    </form>
 </body>
 
 </html>

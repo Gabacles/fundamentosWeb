@@ -4,6 +4,9 @@ por id: getElementById()
 por nome: getElementsByName()
 por classe: getElementsByClassName
 por seletor: querySelector()
+
+para importar js na pagina html:
+<script src="assets/js/script.js"></script>
 */
 
 let nome = document.getElementById('nome')
